@@ -1,0 +1,54 @@
+.summer-order{
+    text-align: center;
+    font-size: 25px;
+}
+.item-order{
+    text-align: center;
+    font-size: 18px;
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 14px;
+   
+}
+.price-desc p{
+    margin: 0;
+    padding: 0;
+}
+.give-border{
+    border-top: 2px solid;
+    margin-top: 5px;
+}
+.order-total p{
+    margin: 0;
+    font-size: 22px;
+    color: red;
+    
+}
+.order-review{
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 200px;
+    padding: 5px;
+    background-color: sandybrown;
+    border: 1px solid sienna;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:680px){
+    .summer-order{
+        margin: 0;
+        padding: 0;
+    }
+    .item-order{
+        margin: 0;
+    }
+    .order-review{
+        margin-left: 25%;
+        width: 200px;
+    
+    }
+}
